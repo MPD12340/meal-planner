@@ -1,0 +1,244 @@
+{
+  "id": 6,
+  "days": [
+    {
+      "id": 4,
+      "meals": [
+        {
+          "meal_type": "Breakfast",
+          "calories": 450,
+          "protein_grams": 25.0,
+          "carbs_grams": 60.0,
+          "fat_grams": 15.0,
+          "notes": "High fiber and filling breakfast.",
+          "items": [
+            {
+              "name": "Oats and Eggs",
+              "ingredients": [
+                {
+                  "name": "Rolled oats",
+                  "unit": "cup",
+                  "notes": null,
+                  "amount": "1"
+                },
+                {
+                  "name": "Water",
+                  "unit": "cups",
+                  "notes": null,
+                  "amount": "2"
+                },
+                {
+                  "name": "Eggs",
+                  "unit": "",
+                  "notes": "boiled or scrambled",
+                  "amount": "2"
+                },
+                {
+                  "name": "Milk",
+                  "unit": "cup",
+                  "notes": "for creaminess",
+                  "amount": "1/2"
+                },
+                {
+                  "name": "Cooked spinach",
+                  "unit": "cup",
+                  "notes": "fresh or frozen",
+                  "amount": "1/2"
+                },
+                {
+                  "name": "Salt",
+                  "unit": null,
+                  "notes": null,
+                  "amount": "to taste"
+                },
+                {
+                  "name": "Pepper",
+                  "unit": null,
+                  "notes": null,
+                  "amount": "to taste"
+                }
+              ],
+              "preparation": "Cook oats with water in a pot until soft. Stir in cooked spinach, then add boiled or scrambled eggs on top. Drizzle with milk and season with salt and pepper.",
+              "nutritional_highlights": [
+                "High in protein from eggs",
+                "Good source of complex carbs"
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type": "Dinner",
+          "calories": 600,
+          "protein_grams": 15.0,
+          "carbs_grams": 85.0,
+          "fat_grams": 25.0,
+          "notes": "Comforting and hearty dinner.",
+          "items": [
+            {
+              "name": "Vegetable Curry and Rice",
+              "ingredients": [
+                {
+                  "name": "Mixed vegetables",
+                  "unit": "cup",
+                  "notes": "carrots, peas, bell peppers, etc.",
+                  "amount": "1"
+                },
+                {
+                  "name": "Coconut milk",
+                  "unit": "cup",
+                  "notes": null,
+                  "amount": "1/2"
+                },
+                {
+                  "name": "Curry powder",
+                  "unit": "tbsp",
+                  "notes": null,
+                  "amount": "2"
+                },
+                {
+                  "name": "Rice",
+                  "unit": "cup",
+                  "notes": "cooked",
+                  "amount": "1"
+                },
+                {
+                  "name": "Salt",
+                  "unit": null,
+                  "notes": null,
+                  "amount": "to taste"
+                },
+                {
+                  "name": "Oil",
+                  "unit": "tbsp",
+                  "notes": "for cooking",
+                  "amount": "1"
+                }
+              ],
+              "preparation": "Heat oil in a pan, add the mixed vegetables and curry powder. Stir for 2-3 minutes, then add coconut milk and simmer until thickened. Serve over cooked rice.",
+              "nutritional_highlights": [
+                "Rich in fiber and vitamins from vegetables",
+                "Healthy fats from coconut milk"
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type": "Lunch",
+          "calories": 550,
+          "protein_grams": 40.0,
+          "carbs_grams": 25.0,
+          "fat_grams": 30.0,
+          "notes": "Fresh and satiating lunch.",
+          "items": [
+            {
+              "name": "Grilled Chicken Salad",
+              "ingredients": [
+                {
+                  "name": "Grilled chicken breast",
+                  "unit": "g",
+                  "notes": "diced",
+                  "amount": "150"
+                },
+                {
+                  "name": "Mixed greens",
+                  "unit": "cups",
+                  "notes": null,
+                  "amount": "2"
+                },
+                {
+                  "name": "Cherry tomatoes",
+                  "unit": "cup",
+                  "notes": null,
+                  "amount": "1/2"
+                },
+                {
+                  "name": "Cucumber",
+                  "unit": "medium",
+                  "notes": "sliced",
+                  "amount": "1"
+                },
+                {
+                  "name": "Olive oil",
+                  "unit": "tbsp",
+                  "notes": null,
+                  "amount": "1"
+                },
+                {
+                  "name": "Vinegar",
+                  "unit": "tbsp",
+                  "notes": "balsamic preferably",
+                  "amount": "1"
+                },
+                {
+                  "name": "Salt",
+                  "unit": null,
+                  "notes": null,
+                  "amount": "to taste"
+                },
+                {
+                  "name": "Pepper",
+                  "unit": null,
+                  "notes": null,
+                  "amount": "to taste"
+                }
+              ],
+              "preparation": "Combine all veggie ingredients in a large bowl. Top with grilled chicken, drizzle with olive oil and vinegar, then mix gently.",
+              "nutritional_highlights": [
+                "Lean protein from chicken",
+                "High in vitamins from vegetables"
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type": "Snack",
+          "calories": 300,
+          "protein_grams": 15.0,
+          "carbs_grams": 30.0,
+          "fat_grams": 12.0,
+          "notes": "Great source of protein and energy boost.",
+          "items": [
+            {
+              "name": "Greek Yogurt with Honey",
+              "ingredients": [
+                {
+                  "name": "Greek yogurt",
+                  "unit": "cup",
+                  "notes": null,
+                  "amount": "1"
+                },
+                {
+                  "name": "Honey",
+                  "unit": "tbsp",
+                  "notes": null,
+                  "amount": "1"
+                },
+                {
+                  "name": "Nuts",
+                  "unit": "cup",
+                  "notes": "almonds or walnuts",
+                  "amount": "1/4"
+                }
+              ],
+              "preparation": "Combine Greek yogurt with honey and top with nuts for crunch.",
+              "nutritional_highlights": [
+                "High in protein and probiotics",
+                "Healthy fats from nuts"
+              ]
+            }
+          ]
+        }
+      ],
+      "day_number": 1,
+      "total_calories": 1900,
+      "meal_plan": 6
+    }
+  ],
+  "period_type": "Daily",
+  "budget_range": "Rs1000-2000",
+  "weight": 76,
+  "is_vegetarian": false,
+  "allergic_to": [],
+  "health_issues": [],
+  "user": 1
+}
