@@ -4,7 +4,9 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Home from "./pages/Home";
 import Dashboard from "./pages/Landing";
+import MealPlanPage from "./pages/meal-plan";
 import ProtectedRoute from "./components/ProtectedRoute";
+import MealPlannerForm from "./pages/mealplanform";
 
 function App() {
   return (
@@ -14,8 +16,12 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+
+          {/* Protected Route Wrapper */}
           <Route element={<ProtectedRoute />}>
+            <Route path="/dietrypreferences" element={<MealPlannerForm />} />
             <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/meal-plan/:id" element={<MealPlanPage />} />
           </Route>
         </Routes>
       </div>
