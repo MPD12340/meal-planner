@@ -23,7 +23,7 @@ function Login() {
     if (response.ok) {
       localStorage.setItem("accessToken", data.access); 
       alert("Login successful!");
-      navigate("/dashboard"); 
+      navigate("/dietrypreferences"); 
     } else {
       alert(`Error: ${data.message}`);
     }

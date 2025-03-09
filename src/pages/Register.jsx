@@ -26,6 +26,9 @@ function Register() {
         body: JSON.stringify(formData),
       });
 
+      console.log(response);
+      
+
       const data = await response.json();
       if (response.ok) {
         alert("Registration successful!");
