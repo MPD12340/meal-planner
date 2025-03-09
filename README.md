@@ -6,7 +6,7 @@
 
 # Clone the repository
 ```
-git clone (https://github.com/MPD12340/meal-planner.git)
+git clone https://github.com/MPD12340/meal-planner.git
 cd meal-planner
 ```
 
