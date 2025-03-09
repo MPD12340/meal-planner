@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Button } from "@/components/components/ui/button";
 import { Plus, X } from "lucide-react";
+import { baseApiUrl } from "../service/Api";
 import {
   Card,
   CardContent,
@@ -79,7 +80,7 @@ const MealPlannerForm = () => {
       const token = localStorage.getItem("accessToken");
       console.log(token);
 
-      const response = await fetch("http://127.0.0.1:8000/mealplans/", {
+      const response = await fetch(`${baseApiUrl}/mealplans/`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -92,7 +93,7 @@ const MealPlannerForm = () => {
         const data = await response.json();
         console.log("Meal plan created:", data);
         setErrorMessage(""); 
-        navigate("/dashboard"); // Navigate to dashboard after submission
+        navigate("/dashboard"); 
       } else {
         const errorData = await response.json();
         setErrorMessage(errorData.detail || "An error occurred. Please try again."); // Set error message
